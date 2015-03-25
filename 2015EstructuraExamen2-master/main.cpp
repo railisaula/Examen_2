@@ -15,7 +15,7 @@ int infinito = 9999;
 //Nota: se sugiere NO usar recursion
 void agregarArista(int grafo[5][5], int inicio, int destino,int peso)
 {
-    int distancia=grafo[inicio][destino];
+    int distancia=grafo[inicio][destino]=peso;
 }
 
 //Devuelve true si es posible llegar desde el nodo inicio hasta el destino.
